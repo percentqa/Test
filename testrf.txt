@@ -5,7 +5,7 @@ Library           driverconn
 *** Test Cases ***
 测试用例
     [Tags]    11
-    Open Browser    http://www.baidu.com    chromedriver
+    Open Browser    http://www.baidu.com    chrome
     #打开百度网页
     Input text    xpath=//input[@id = "kw"]    superman
     Click button    id=su    #定位提交按钮
