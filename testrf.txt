@@ -1,11 +1,11 @@
-*** Settings ***
+﻿*** Settings ***
 Library           Selenium2Library
 Library           driverconn
 
 *** Test Cases ***
 测试用例
     [Tags]    11
-    Open Browser    http://www.baidu.com    headlesschrome    #打开百度网页
+    Open Browser    http://www.baidu.com    #打开百度网页
     Input text    xpath=//input[@id = "kw"]    superman
     Click button    id=su    #定位提交按钮
     sleep    3    #休眠3s
